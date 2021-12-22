@@ -1,0 +1,74 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+main{
+    height: 100vh;
+}
+
+.bg-primary-color{
+    /* background-color: #1a262e; */
+    background-color: #1c2830;
+}
+
+.bg-secondary-color{
+    background-color: #d7d7d7;
+}
+
+.primary-color{
+    color: #d7d7d7;
+}
+
+.secondary-color{
+    color: #d6a228;
+}
+
+/* Estilo navbar */
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    box-shadow: 0 3px 5px #11181d;
+}
+
+#navbar a:hover{
+    color: #888888;
+}
+
+#navbar a:active{
+    color: #d6a228;
+}
+
+
+
+.navbar-nav a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* .navbar-nav a:visited{
+    color: unset;
+} */
+
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;  
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-brand span{
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.navbar-brand span:hover{
+    color: #d6a228;
+}
