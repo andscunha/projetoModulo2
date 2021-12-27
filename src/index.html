@@ -16,47 +16,105 @@
     <!-- css do projeto -->
     <link rel="stylesheet" href="./css/style.css">
     <title>ResiliaFlix</title>
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./imagens/logo.png" type="image/x-icon">
 </head>
-<body>
-    <header>
-        <!-- navbar -->
-        <!-- <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container py-3">
-                <a href="#" class="navbar-brand">
-                    <img src="./icon.png" alt="ResiliaFlix">
-                    <span>ResiliaFlix</span>
-                </a>
-            </div>
-        </nav> -->
 
+<body class="bg-primary-color">
+    <header class="user-select-none">
         <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
             <div class="container py-3">
-              <a class="navbar-brand" href="#">
-                <img src="./icon.png" alt="" class="d-inline-block align-text-top">
-                <span class="primary-color">ResiliaFlix</span>
+              <a class="navbar-brand d-flex align-items-center ms-4" href="#">
+                <img src="./imagens/logo.png" alt="">
+                <span class="primary-color ms-1">ResiliaFlix</span>
               </a>
             </div>
 
 
-            <div class="navbar-collapse justify-content-end" id="navbar-items">
+            <button class="navbar-toggler" type="button" data-toglle="collpase" data-target="#navabar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="colapse navbar-collapse justify-content-end" id="navbar-links">
                 <ul class="navbar-nav me-5">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page">Sobre</a>
+                    <li class="nav-item d-flex align-items-center">
+                        <a href="#" class="active primary-color me-3" aria-current="page">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active primary-color" aria-current="page">Login</a>
+                        <button href="#" type="button" class="btn btn-outline-secondary primary-color">entrar</button>
                     </li>
                 </ul>
             </div>
-          </nav>
+        </nav>
     </header>
 
 
-    <main class="bg-primary-color"></main>
+    <main class="bg-primary-color">
+        <div class="primary-color d-flex flex-column justify-content-center align-items-center" id="intro-um">
+            <h2 class="mb-5">Prepare-se para um mundo novo de escolhas e aventura.</h2>
+
+            <div class="d-flex justify-content-around" id="intro-texto">
+                <!-- <p>Facilidade de acesso.</p>
+                
+                <p >Filmes a qualquer hora, em qualquer lugar.</p>
+
+                <p>Preço acessível para públicos diversos.</p> -->
+
+                <div class="card bg-tertiary-color" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title primary-color">Facilidade de acesso.</h5>
+                      
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+                  <div class="card bg-tertiary-color" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title primary-color">Filmes a qualquer hora, em qualquer lugar.</h5>
+                      
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+
+                <div class="card bg-tertiary-color" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title primary-color">Preço acessível para públicos diversos.</h5>
+                      
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- <div class="input-group mb-3 px-5">
+                <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                </div>
+              </div> -->
+
+              <button href="#" type="button" class="mt-5 btn btn-outline-secondary primary-color" id="saiba">saiba mais</button>
+        </div>
+
+        
+        <div class="bg-secondary-color" id="intro-dois">
+
+        </div>
+        
+
+        <div class="bg-primary-color d-flex align-items-center justify-content-center" id="intro-tres">
+            <div class="input-group mb-3 w-50" id="area-email">
+                <input type="text" class="form-control" placeholder="Digite seu email" aria-label="email" aria-describedby="button-addon2">
+
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary primary-color" type="button" id="button-addon2">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
-    <footer></footer>
+    <footer class="bg-primary-color">
+    </footer>
 
 
 
