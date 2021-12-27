@@ -1,13 +1,11 @@
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
 
-main{
-    height: 100vh;
-}
-
 .bg-primary-color{
-    /* background-color: #1a262e; */
     background-color: #1c2830;
 }
 
@@ -15,47 +13,24 @@ main{
     background-color: #d7d7d7;
 }
 
+.bg-tertiary-color{
+    background-color: #1c283057;
+}
+
 .primary-color{
     color: #d7d7d7;
 }
 
 .secondary-color{
-    color: #d6a228;
+    color: #1a262e;
 }
 
-/* Estilo navbar */
 
-a{
-    text-decoration: none;
-}
+/* --------estilo header-------- */
 
 #navbar{
-    box-shadow: 0 3px 5px #11181d;
-}
-
-#navbar a:hover{
-    color: #888888;
-}
-
-#navbar a:active{
-    color: #d6a228;
-}
-
-
-
-.navbar-nav a{
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-/* .navbar-nav a:visited{
-    color: unset;
-} */
-
-.navbar-brand{
-    display: flex;
-    align-items: center;
-    margin-left: 20px;  
+    box-shadow: 0 2px 5px #11181d;
+    height: 80px;
 }
 
 .navbar-brand img{
@@ -63,12 +38,83 @@ a{
 }
 
 .navbar-brand span{
-    margin-left: 5px;
     font-size: 30px;
     font-weight: 700;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .navbar-brand span:hover{
     color: #d6a228;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.nav-item a:hover{
+    color: #888888;
+}
+
+.nav-item a:active{
+    color: #d6a228;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn:active{
+    background-color: #888888;
+}
+
+
+/* --------estilo main-------- */
+
+main{
+    background-image: url("https://media3.giphy.com/media/g9582DNuQppxC/giphy.gif?cid=790b76117075bb6c2dd1dce087c076f45b8e7d08b48993f3&rid=giphy.gif&ct=g");
+    background-size: contain;
+}
+
+#intro-um{
+    height: 100vh;
+    background-color: #11181dc4;
+}
+
+#intro-texto{
+    width: 80%;
+}
+
+#saiba{
+    width: 300px;
+}
+
+#intro-dois{
+    height: 100vh;
+}
+
+#texto-intro-dois{
+    font-size: 30px;
+    width: 400px;
+}
+
+.carousel{
+    width: 300px;
+}
+
+#intro-tres{
+    height: 70vh;
+}
+
+
+/* --------estilo footer-------- */
+
+footer{
+    height: 30vh;
 }
