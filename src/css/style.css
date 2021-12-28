@@ -91,6 +91,10 @@ main{
     width: 80%;
 }
 
+.card{
+    width: 18rem;
+}
+
 #saiba{
     width: 300px;
 }
