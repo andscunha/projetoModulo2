@@ -30,7 +30,7 @@
 
 #navbar{
     box-shadow: 0 2px 5px #11181d;
-    height: 80px;
+    height: 70px;
 }
 
 .navbar-brand img{
@@ -115,6 +115,7 @@ main{
 
 #texto-intro-dois{
     font-size: 20px;
+    font-weight: 500;
 }
 
 .carousel-inner{
