@@ -110,16 +110,15 @@ main{
 }
 
 #intro-dois{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #texto-intro-dois{
-    font-size: 30px;
-    width: 400px;
+    font-size: 20px;
 }
 
-.carousel{
-    width: 300px;
+.carousel-inner{
+    width: 400px;
 }
 
 #intro-tres{
