@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-primary-color{
+    background-color: #1c2830;
+}
+
+.bg-secondary-color{
+    background-color: #d7d7d7;
+}
+
+.bg-tertiary-color{
+    background-color: #1c283057;
+}
+
+.primary-color{
+    color: #d7d7d7;
+}
+
+.secondary-color{
+    color: #1a262e;
+}
+
+
+/* --------estilo header-------- */
+
+#navbar{
+    box-shadow: 0 2px 5px #11181d;
+    height: 80px;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.navbar-brand span{
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.1s;
+}
+
+.navbar-brand span:hover{
+    color: #d6a228;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    width: 100px;
+}
+
+.nav-item a:hover{
+    color: #888888;
+}
+
+.nav-item a:active{
+    color: #d6a228;
+}
+
+.btn{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btn:active{
+    background-color: #d6a228;
+}
