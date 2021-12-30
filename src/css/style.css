@@ -17,6 +17,10 @@
     background-color: #1c283057;
 }
 
+.bg-quaternary-color{
+    background-color: #1a262e65;
+}
+
 .primary-color{
     color: #d7d7d7;
 }
@@ -25,16 +29,19 @@
     color: #1a262e;
 }
 
+.tertiary-color{
+    color: #d6a228;
+}
+
 
 /* --------estilo header-------- */
 
 #navbar{
-    box-shadow: 0 2px 5px #11181d;
-    height: 70px;
+    height: 60px;
 }
 
 .navbar-brand img{
-    width: 50px;
+    width: 40px;
 }
 
 .navbar-brand span{
@@ -119,11 +126,53 @@ main{
 }
 
 .carousel-inner{
-    width: 400px;
+    width: 350px;
 }
 
 #intro-tres{
+    min-height: 100vh;
+}
+
+#intro-tres h3{
+    font-weight: 400;
+}
+
+.options{
+    transition: 0.2s;
+}
+
+.options:hover{
+    color: #d6a228;
+}
+
+#intro-tres .icons{
+    font-size: 120px;
+    padding: 0 70px;
+}
+
+#intro-tres p{
+    text-transform: uppercase;
+
+}
+
+
+.dash{
+    font-size: 50px;
+    color: #d6a228dc;
+}
+
+#intro-quatro{
     height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-quatro p{
+    font-size: 18px;
+}
+
+.form-control{
+    height: 35px;
 }
 
 
