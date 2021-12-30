@@ -18,7 +18,7 @@
 }
 
 .bg-quaternary-color{
-    background-color: #1a262e65;
+    background-color: #1a262e48;
 }
 
 .primary-color{
@@ -120,9 +120,9 @@ main{
     min-height: 100vh;
 }
 
-#texto-intro-dois{
+.texto-intro-dois{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .carousel-inner{
@@ -162,7 +162,7 @@ main{
 }
 
 #intro-quatro{
-    height: 70vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
 }
@@ -180,4 +180,30 @@ main{
 
 footer{
     height: 30vh;
+}
+
+footer img{
+    width: 50px;
+}
+
+footer span{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#textInput{
+    height: 80px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+footer .bi{
+    font-size: 35px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+footer .bi:hover{
+    color: #d6a228;
 }
