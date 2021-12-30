@@ -91,11 +91,22 @@
         
         <div class="bg-secondary-color d-flex align-items-center" id="intro-dois">
           <div class="w-50 px-5" id="">
-            <p id="texto-intro-dois">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="py-2">
+              <h3 class="titulo-intro-dois">Opções para diversos gostos.</h3>
+              <p class="texto-intro-dois">Do terror ao romance, à ficção científica, ao drama. Nunca fique sem opções!</p>
+            </div>
 
-            <p id="texto-intro-dois">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-            <p id="texto-intro-dois">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="py-3">
+              <h3 class="titulo-intro-dois">Conteúdo para todas as idades.</h3>
+              <p class="texto-intro-dois">Porque as crianças também merecem aproveitar esse mundo!</p>
+            </div>
+
+
+            <div class="py-2">
+              <h3 class="titulo-intro-dois">Acesso total a todo nosso acervo.</h3>
+              <p class="texto-intro-dois">Aproveite a infinidade do nosso conteúdo todinho na palma da sua mão.</p>
+            </div>
           </div>
 
 
@@ -135,7 +146,7 @@
         </div>
 
         <div class="bg-primary-color d-flex align-items-center justify-content-center flex-column" id="intro-tres">
-          <h3 class="primary-color">Assista aonde quiser:</h3>
+          <h3 class="mt-3 primary-color">Assista aonde quiser:</h3>
 
           <div class="mt-5 d-flex primary-color">
             <div class="d-flex flex-column align-items-center options">
@@ -183,7 +194,61 @@
     </main>
 
 
-    <footer>
+    <footer class="d-flex align-items-center justify-content-around primary-color">
+      <div class="primary-color d-flex align-items-center">
+        <img src="./imagens/logo.png" alt="">
+        <div class="ps-2 d-flex flex-column">
+          <span>
+            Copyright &#169; ResiliaFlix - 2021
+          </span>
+          <span>
+            Projeto realizado pelo grupo 3
+          </span>
+        </div>
+      </div>
+
+      <div>
+          <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary primary-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Contate-nos
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Deixe-nos uma mensagem:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--form-->
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Garantimos a sua privacidade.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="textInput" class="form-label">Mensagem:</label>
+                    <input type="text" class="form-text" id="textInput">
+                  </div>
+                  <button type="submit" class="btn btn-secondary bg-primary-color primary-color">Enviar</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary bg-primary-color primary-color" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-align-center pe-4">
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-linkedin"></i>
+      </div>
     </footer>
 
 
