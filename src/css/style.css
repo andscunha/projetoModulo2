@@ -207,3 +207,7 @@ footer .bi{
 footer .bi:hover{
     color: #d6a228;
 }
+
+footer a:visited{
+    color: #d7d7d7;
+}
