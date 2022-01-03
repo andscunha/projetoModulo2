@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/informacoes.css" />
+    <link rel="stylesheet" href="./css/buscar.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap" rel="stylesheet">
     <title>RESILIAFLIX</title>
   </head>
+
   <body>
     <header>
       <nav class="navbar navbar-light navbar-expand-md fixed-top py-4 box-shadow ">
@@ -30,8 +32,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
 
-            <li class="nav-item ">
-              <a class="nav-link text-white " href="#">Lupinha</a>
+            <li class="search">
+              <input type="text" placeholder="Procurar" id="mySearch">
+              <input type="submit" class="form__submit" value="Vamos lá">
             </li>    
             <li class="nav-item ">
               <a class="nav-link text-white " href="home.html">Home</a>
@@ -46,28 +49,30 @@
           </ul>
       </nav>
     </header>
-    <main class="container-fluid p-0">
-        <section class="informacoes">
-            <h1 class="px-3">Informações</h1>
-            <div class="row">
-                <div class="col-lg-8">
-                    <h1>Informações</h1>
-                    <div id="info-api">
-                        <img src="" alt="" id="poster-filme">
-                        <h2 id="titulo"></h2>
-                        <p id="diretor"> </p>
-                        <p id="ano"> </p>
-                        <p id="lancamento"> </p>
-                        <p id="duracao"></p>
-                        <p id="genero"></p>
-                        <p id="sinopse"></p>
-                        <p id="avaliacao-imdb"> </p>
-                        <a class="btn btn-outline-primary ml-md-2" href="buscar.html">Voltar</a>
-                    </div>
-                </div>
-            </div>
 
-        </section>
+
+    <main class="container-fluid p-0">
+
+
+      <div id="informacoes">
+
+        <div id="poster-filme">
+            
+        </div>
+
+        <div id="infoContainer">
+    
+            <h2 id="titulo"></h2>
+            <h4 id="diretor"></h4>
+            <h4 id="ano"></h4>
+            <h4 id="lancamento"></h4>
+            <h4 id="duracao"></h4>
+            <h4 id="genero"></h4>
+            <h4 id="sinopse"></h4>
+        
+        </div>
+        
+    </div>
     </main>
 
     
@@ -93,5 +98,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/catalogo.js"></script>
+    <script src="./js/resultado.js"></script>
   </body>
 </html>
