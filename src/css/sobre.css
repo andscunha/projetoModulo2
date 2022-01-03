@@ -30,7 +30,7 @@
 
 #navbar{
     box-shadow: 0 2px 5px #11181d;
-    height: 70px;
+    height: 80px;
 }
 
 .navbar-brand img{
@@ -55,6 +55,8 @@ a{
 .nav-item a{
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 14px;
+    width: 100px;
 }
 
 .nav-item a:hover{
@@ -72,63 +74,4 @@ a{
 
 .btn:active{
     background-color: #d6a228;
-}
-
-
-/* --------estilo main-------- */
-
-main{
-    background: url("https://media3.giphy.com/media/g9582DNuQppxC/giphy.gif?cid=790b76117075bb6c2dd1dce087c076f45b8e7d08b48993f3&rid=giphy.gif&ct=g") center center no-repeat fixed;
-    background-size: cover;
-}
-
-#intro-um{
-    height: 100vh;
-    background-color: #11181dc4;
-}
-
-#intro-texto{
-    width: 80%;
-}
-
-.card{
-    width: 18rem;
-}
-
-#botoes-um{
-    width: 700px;
-}
-
-#botoes-um span{
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-#saiba, #cadastre-se{
-    width: 300px;
-}
-
-#intro-dois{
-    min-height: 100vh;
-}
-
-#texto-intro-dois{
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.carousel-inner{
-    width: 400px;
-}
-
-#intro-tres{
-    height: 70vh;
-}
-
-
-/* --------estilo footer-------- */
-
-footer{
-    height: 30vh;
 }
