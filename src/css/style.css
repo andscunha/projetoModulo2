@@ -21,6 +21,11 @@
     background-color: #1a262e48;
 }
 
+.bg-transparent{
+    background-color: transparent;
+    border: none;
+}
+
 .primary-color{
     color: #d7d7d7;
 }
@@ -59,16 +64,16 @@ a{
     transition: 0.1s;
 }
 
-.nav-item a{
+#sobre-header{
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.nav-item a:hover{
+#sobre-header:hover{
     color: #888888;
 }
 
-.nav-item a:active{
+#sobre-header:active{
     color: #d6a228;
 }
 
@@ -104,16 +109,17 @@ main{
 
 #botoes-um{
     width: 700px;
+    
+}
+
+#saiba, #cadastre{
+    width: 300px;
 }
 
 #botoes-um span{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
-}
-
-#saiba, #cadastre-se{
-    width: 300px;
 }
 
 #intro-dois{
