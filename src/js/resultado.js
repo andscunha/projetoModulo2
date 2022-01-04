@@ -11,7 +11,9 @@ async function apiFilme(filme1) {
     if (respostaApi.Title !== undefined) {
       sucesso(respostaApi);
     } else {
-      throw new Error("O filme não foi encontrado");
+      throw new Error(
+        "O filme não foi encontrado! Tente novamente pesquisando os títulos em Inglês."
+      );
     }
   } catch (error) {
     erro(error);
