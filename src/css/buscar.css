@@ -64,6 +64,10 @@ a {
   transition: 0.1s;
 }
 
+.search {
+  width: 400px;
+}
+
 #sobre-header,
 #mySearch {
   text-transform: uppercase;
@@ -167,4 +171,15 @@ footer .bi:hover {
 
 footer a:visited {
   color: #d7d7d7;
+}
+
+@media (max-width: 770px) {
+  .catalinha {
+    padding: 30px;
+  }
+  .catalinha img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
 }
