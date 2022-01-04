@@ -40,8 +40,14 @@
       <div class='login-card'>
           <h2>Olá novamente!</h2>
           <p>Se você esqueceu sua senha, digite seu e-mail abaixo para receber o formulário de redefinição de senha!</p>
-          <input class="campos" id="email" type="email" placeholder="Insira seu E-mail" required>
-          <button type="submit">Enviar</button>
+          <form name='f1' id="formulario">
+            <input class="campos" name="email" id="email" onblur="validaEmail(f1.email)" type="email" placeholder="Insira seu E-mail" required><br>
+            <br><div id='msgemail'></div>
+          </form>
+
+          <button onclick="submit()">Enviar</button>
+            
+          
       </div>
      
     </main>
@@ -58,6 +64,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./js/login.js"></script>
+    <script src="./js/rec-senha.js"></script>
 </body>
 </html>

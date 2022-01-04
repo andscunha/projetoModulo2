@@ -58,6 +58,10 @@ main{
   cursor: pointer;
 }
 
+form{
+  width: 100%;
+}
+
 .campos{
   border: none;
   width: 90%;
