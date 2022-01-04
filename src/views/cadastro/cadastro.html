@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-08" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cadastro.css" />
+    <title>Resiliaflix | Cadastro</title>
+  </head>
+  <body>
+    <div class="cadastro-page">
+      <video autoplay muted loop>
+        <source
+          src="../../assets/movies/displayBackground.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="cadastro-container">
+        <div class="cadastro-header">
+          <h1>CADASTRE-SE</h1>
+          <h5>
+            Na <span class="resilia-color">Resiliaflix</span> e tenha acesso a
+            dezenas de títulos incríveis!
+          </h5>
+        </div>
+        <hr />
+        <form id="cadastro-form-1">
+          <div class="cadastro-input-group input-grow-2">
+            <input
+              type="input"
+              placeholder="Nome"
+              name="nome"
+              id="nome"
+              required
+              minlength="2"
+              class="cadastro-input"
+              onchange="validaNome()"
+            />
+            <label for="nome" class="cadastro-input-label">Nome Completo</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="input"
+              placeholder="Identidade"
+              name="rg"
+              id="rg"
+              required
+              minlength="11"
+              class="cadastro-input"
+            />
+            <label for="rg" class="cadastro-input-label">Identidade</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="input"
+              placeholder="CPF"
+              name="cpf"
+              id="cpf"
+              required
+              minlength="11"
+              class="cadastro-input"
+              onchange="validaCpf()"
+            />
+            <label for="cpf" class="cadastro-input-label">CPF</label>
+          </div>
+          <div class="cadastro-input-group input-grow-2">
+            <input
+              type="email"
+              placeholder="Email"
+              name="email"
+              id="email"
+              required
+              class="cadastro-input"
+              onchange="validaEmail()"
+            />
+            <label for="email" class="cadastro-input-label">Email</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="password"
+              placeholder="Password"
+              name="password"
+              id="password"
+              minlength="8"
+              required
+              class="cadastro-input"
+            />
+            <label for="password" class="cadastro-input-label">Senha</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="password"
+              placeholder="Password"
+              name="password2"
+              id="password2"
+              minlength="8"
+              required
+              class="cadastro-input"
+              onchange="validaSenha()"
+            />
+            <label for="password2" class="cadastro-input-label"
+              >Confirmar Senha</label
+            >
+          </div>
+        </form>
+        <form id="cadastro-form-2">
+          <div class="cadastro-input-group input-grow-2">
+            <input
+              type="input"
+              placeholder="CEP"
+              name="cep"
+              id="cep"
+              required
+              minlength="2"
+              class="cadastro-input"
+            />
+            <label for="cep" class="cadastro-input-label">CEP</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="input"
+              placeholder="Estado"
+              name="uf"
+              id="uf"
+              required
+              minlength="2"
+              class="cadastro-input"
+              onchange="validaCep()"
+            />
+            <label for="uf" class="cadastro-input-label">Estado</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="input"
+              placeholder="Cidade"
+              name="cidade"
+              id="cidade"
+              required
+              minlength="11"
+              class="cadastro-input"
+            />
+            <label for="cidade" class="cadastro-input-label">Cidade</label>
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="input"
+              placeholder="Logradouro"
+              name="logradouro"
+              id="logradouro"
+              required
+              minlength="11"
+              class="cadastro-input"
+              onchange="validaLogradouro()"
+            />
+            <label for="logradouro" class="cadastro-input-label"
+              >Logradouro</label
+            >
+          </div>
+          <div class="cadastro-input-group input-grow-1">
+            <input
+              type="numero"
+              placeholder="Número"
+              name="numero"
+              id="numero"
+              required
+              class="cadastro-input"
+              onchange="validaNumero()"
+            />
+            <label for="numero" class="cadastro-input-label">Número</label>
+          </div>
+          <div class="cadastro-input-group input-grow-2">
+            <input
+              type="complemento"
+              placeholder="Complemento"
+              name="complemento"
+              id="complemento"
+              minlength="8"
+              required
+              class="cadastro-input"
+            />
+            <label for="complemento" class="cadastro-input-label"
+              >Complemento</label
+            >
+          </div>
+        </form>
+        <div class="cadastro-footer">
+          <button id="botao-cadastro" onclick="avancarCadastro()">
+            <span id="botao-cadastro-texto">Avançar</span>&nbsp;
+            <object
+              data="../../assets/icons/fontawesome/arrow-alt-circle-right-regular.svg"
+              width="25"
+              height="25"
+            ></object>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script src="../../models/cadastro/viaCep.js"></script>
+    <script src="../../controllers/cadastro/validacao.js"></script>
+  </body>
+</html>
