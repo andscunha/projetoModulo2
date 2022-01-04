@@ -6,6 +6,7 @@
 }
 body {
   background: #d3d3d3;
+  overflow-x: hidden;
 }
 
 .bg-primary-color {

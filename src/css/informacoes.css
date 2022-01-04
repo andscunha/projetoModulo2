@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .bg-primary-color {
   background-color: #1c2830;
 }
@@ -95,7 +99,6 @@ main {
 }
 
 .informacoes {
-  width: 100%;
   align-items: center;
   padding-left: 30px;
   border: 2px solid #121b20;
