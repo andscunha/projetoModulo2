@@ -41,9 +41,13 @@ body {
   color: #d6a228;
 }
 
-#navbar {
-  height: 60px;
+header {
+  width: 100%;
 }
+
+/* #navbar {
+  height: 60px;
+} */
 
 .navbar-brand img {
   width: 40px;
@@ -173,7 +177,7 @@ footer a:visited {
   color: #d7d7d7;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 990px) {
   .catalinha {
     padding: 30px;
   }
@@ -181,5 +185,10 @@ footer a:visited {
     width: 100%;
     height: auto;
     margin-top: 10px;
+  }
+  .menu {
+    margin-bottom: 10px;
+    margin-right: 0;
+    padding-right: 0;
   }
 }
