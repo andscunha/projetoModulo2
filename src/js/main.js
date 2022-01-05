@@ -6,7 +6,7 @@ function validaEmail() {
     }
     if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(dx.value)) {
       sessionStorage.setItem('item', email.value)
-      window.location = "/src/views/cadastro/cadastro.html"
+      window.location = "../views/cadastro/cadastro.html"
       dx.classList.remove("input-invalid");
       return true;
     }
