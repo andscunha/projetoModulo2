@@ -16,7 +16,7 @@
     <!-- css do projeto -->
     <link rel="stylesheet" href="./css/style.css">
     <title>ResiliaFlix</title>
-    <link rel="shortcut icon" href="./imagens/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
 </head>
 
 <body class="bg-primary-color">
@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg fixed-top bg-tertiary-color pe-3" id="navbar">
         <div class="pe-3">
           <a class="navbar-brand d-flex align-items-center ms-4" href="#">
-            <img src="./imagens/logo.png" alt="">
+            <img src="./assets/logo.png" alt="">
             <span class="primary-color ms-1">ResiliaFlix</span>
           </a>
         </div>
@@ -42,7 +42,7 @@
               </li>
 
               <li class="nav-item pe-2">
-                  <a href="#" class="active"><button type="button" class="btn btn-outline-secondary primary-color" id="entrar-header">login</button></a>
+                  <a href="./html/login.html" class="active"><button type="button" class="btn btn-outline-secondary primary-color" id="entrar-header">login</button></a>
               </li>
             </ul>
         </div>
@@ -119,25 +119,25 @@
           <div id="carouselExampleControls" class="carousel carousel-dark slide d-flex align-items-center justify-content-center w-50" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./imagens/poster/P1.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P1.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./imagens/poster/P2.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./imagens/poster/P3.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P3.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./imagens/poster/P4.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P4.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./imagens/poster/P5.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P5.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./imagens/poster/P6.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P6.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./imagens/poster/P7.jpg" class="d-block w-100" alt="...">
+                <img src="./assets/poster/P7.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -190,10 +190,10 @@
           <p class="primary-color">Preparado para viver várias histórias no conforto da sua casa?</p>
 
             <div class="input-group mb-3 w-50 d-flex align-items-center" id="area-email">
-                <input type="text" class="form-control rounded" placeholder="Digite seu email" aria-label="email" aria-describedby="button-addon2">
+                <input type="email" class="form-control rounded" placeholder="Digite seu email" aria-label="email" aria-describedby="button-addon2" id="email">
 
                 <div class="input-group-append d-flex align-items-center">
-                    <button class="btn btn-outline-secondary primary-color" type="button" id="button-addon2">Cadastrar</button>
+                    <button class="btn btn-outline-secondary primary-color" type="button" id="button-addon2" onclick="validaEmail()">Cadastrar</button>
                 </div>
             </div>
         </div>
@@ -202,13 +202,13 @@
 
     <footer class="d-flex align-items-center justify-content-around primary-color">
       <div class="primary-color d-flex align-items-center">
-        <img src="./imagens/logo.png" alt="">
+        <img src="./assets/logo.png" alt="">
         <div class="ps-2 d-flex flex-column">
           <span>
             Copyright &#169; ResiliaFlix - 2021
           </span>
           <span>
-            Projeto realizado pelo grupo 3
+            Projeto realizado pelo grupo 2
           </span>
         </div>
       </div>
@@ -268,6 +268,6 @@
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
     <!-- js do projeto -->
-    <script src="./teste.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

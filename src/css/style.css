@@ -188,6 +188,14 @@ main{
     height: 10%;
 }
 
+.cadastro-input:invalid {
+    box-shadow: none;
+  }
+
+.input-invalid {
+    border: red solid 1.7px;
+  }
+
 /* --------estilo footer-------- */
 
 footer{

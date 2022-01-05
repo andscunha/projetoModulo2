@@ -54,6 +54,8 @@ function validaCpf() {
 
 function validaEmail() {
   let dx = document.getElementById("email");
+  dx.value = dx.value + sessionStorage.getItem('item')
+
   if (dx.value.length === 0) {
     dx.classList.remove("input-invalid");
     return false;
@@ -65,6 +67,8 @@ function validaEmail() {
   dx.classList.add("input-invalid");
   return false;
 }
+
+validaEmail()
 
 function validaSenha() {
   let dx = document.getElementById("password");
