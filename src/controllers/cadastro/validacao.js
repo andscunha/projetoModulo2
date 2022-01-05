@@ -128,7 +128,7 @@ let botaoFormularioTexto = document.getElementById("botao-cadastro-texto");
 
 function finalizaCadastro() {
   if (validaFormulario2()) {
-    window.location = "../precos/precos.html";
+    window.location = "./precos.html";
   } else {
     alert("Você tem campos inválidos!");
   }
