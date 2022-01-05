@@ -36,9 +36,6 @@
 
 /* --------estilo header-------- */
 
-#navbar{
-    height: 60px;
-}
 
 .navbar-brand img{
     width: 40px;
@@ -87,7 +84,26 @@ a{
 /* --------estilo main-------- */
 
 main{
-    min-height: 100vh;
+    margin-top: 80px;
+}
+
+.imagem-membros {
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #d7d7d7ad;
+}
+
+.imagem-membros:hover{
+    border: 2px solid #d6a228;
+}
+
+main .bi{
+    font-size: 30px;
+    padding: 3px;
+}
+
+main .bi:hover{
+    color: #d6a228;
 }
 
 
