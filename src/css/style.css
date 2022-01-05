@@ -41,8 +41,8 @@
 
 /* --------estilo header-------- */
 
-#navbar{
-    height: 60px;
+header{
+    width: 100%;
 }
 
 .navbar-brand img{
@@ -104,16 +104,20 @@ main{
 }
 
 .card{
-    width: 18rem;
+    width: 30%;
+    height: 170px;
+    font-size: 18px;
 }
 
 #botoes-um{
-    width: 700px;
+    width: 70%;
     
 }
 
 #saiba, #cadastre{
-    width: 300px;
+    width: 100%;
+    font-size: 16px;
+    height: 10%;
 }
 
 #botoes-um span{
@@ -126,13 +130,17 @@ main{
     min-height: 100vh;
 }
 
+.titulo-intro-dois{
+    font-size: 30px;
+}
+
 .texto-intro-dois{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
 }
 
 .carousel-inner{
-    width: 350px;
+    width: 50%;
 }
 
 #intro-tres{
@@ -152,13 +160,12 @@ main{
 }
 
 #intro-tres .icons{
-    font-size: 120px;
+    font-size: 150px;
     padding: 0 70px;
 }
 
 #intro-tres p{
     text-transform: uppercase;
-
 }
 
 
@@ -174,13 +181,12 @@ main{
 }
 
 #intro-quatro p{
-    font-size: 18px;
+    font-size: 20px;
 }
 
-.form-control{
-    height: 35px;
+#area-email{
+    height: 10%;
 }
-
 
 /* --------estilo footer-------- */
 
