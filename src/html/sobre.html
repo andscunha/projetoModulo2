@@ -21,7 +21,7 @@
 
 <body class="bg-primary-color">
     <header class="user-select-none">
-        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top bg-quaternary-color" id="navbar">
             <div class="container py-3">
               <a class="navbar-brand d-flex align-items-center ms-4" href="#">
                 <img src="../imagens/logo.png" alt="">
@@ -50,18 +50,74 @@
 
     <main></main>
 
-    <footer class="bg-primary-color">
-    </footer>
-
-
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-    <!-- js do projeto -->
-    <script src="./teste.js"></script>
-</body>
-</html>
+    <footer class="d-flex align-items-center justify-content-around primary-color">
+        <div class="primary-color d-flex align-items-center">
+          <img src="./imagens/logo.png" alt="">
+          <div class="ps-2 d-flex flex-column">
+            <span>
+              Copyright &#169; ResiliaFlix - 2021
+            </span>
+            <span>
+              Projeto realizado pelo grupo 3
+            </span>
+          </div>
+        </div>
+  
+  
+        <div>
+            <!-- Button trigger modal -->
+          <button type="button" class="btn btn-secondary primary-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Contate-nos
+          </button>
+  
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title secondary-color" id="exampleModalLabel">Deixe-nos uma mensagem:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!--form-->
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label secondary-color">Email:</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">Garantimos a sua privacidade.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="textInput" class="form-label secondary-color">Mensagem:</label>
+                      <input type="text" class="form-text" id="textInput">
+                    </div>
+                    <button type="submit" class="btn btn-secondary bg-primary-color primary-color">Enviar</button>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary bg-primary-color primary-color" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+  
+        <div class="text-align-center pe-4">
+            <a href="https://www.instagram.com/resilia.br/?hl=pt-br"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/resilia.br/"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/school/resilia-educacao/"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </footer>
+  
+  
+  
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+      <!-- js do projeto -->
+      <script src="./teste.js"></script>
+  </body>
+  </html>
