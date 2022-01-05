@@ -71,4 +71,3 @@ function getCreditCardType(accountNumber) {
 $("#card-number").change(function () {
   console.log(getCreditCardType($(this).val()));
 });
-

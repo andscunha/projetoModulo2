@@ -68,8 +68,6 @@ function validaEmail() {
   return false;
 }
 
-validaEmail()
-
 function validaSenha() {
   let dx = document.getElementById("password");
   let dy = document.getElementById("password2");
@@ -132,7 +130,7 @@ let botaoFormularioTexto = document.getElementById("botao-cadastro-texto");
 
 function finalizaCadastro() {
   if (validaFormulario2()) {
-    window.location = "../precos/precos.html";
+    window.location = "./precos.html";
   } else {
     alert("Você tem campos inválidos!");
   }

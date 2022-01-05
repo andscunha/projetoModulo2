@@ -133,11 +133,11 @@ body {
   color: transparent;
   text-shadow: 0 0 0 #000;
 }
-.form button {
+button {
   width: 100%;
   outline: none !important;
   color: #000;
-  background: #d6a228;
+  background: #d6a228 !important;
   text-transform: uppercase;
   font-weight: bold;
   border: none;
@@ -146,7 +146,7 @@ body {
   margin-top: 90px;
   font-family: inherit;
 }
-.form button .fa {
+button .fa {
   margin-right: 6px;
 }
 .checkout {
