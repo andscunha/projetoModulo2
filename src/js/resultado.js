@@ -27,7 +27,7 @@ function sucesso(respostaApi) {
   $("#titulo").html(`${respostaApi.Title}`);
   $("#diretor").html(`Diretor: ${respostaApi.Director}`);
   $("#ano").html(`Ano: ${respostaApi.Year}`);
-  $("#lancamento").html(`Lançamento: ${respostaApi.Release}`);
+  $("#lancamento").html(`Lançamento: ${respostaApi.Released}`);
   $("#duracao").html(`Duração: ${respostaApi.Runtime}`);
   $("#genero").html(`Gênero: ${respostaApi.Genre}`);
   $("#atores").html(`Atores: ${respostaApi.Actors}`);
