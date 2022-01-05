@@ -7,6 +7,7 @@
 body {
   background: #d3d3d3;
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 
 .bg-primary-color {
@@ -107,28 +108,28 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #23333d;
+  /* background-color: #23333d; */
   width: 40%;
   height: 55vh;
-  padding: 10px;
-  border-radius: 20px;
-  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: #1a262e;
   text-align: center;
-  box-shadow: rgb(0, 0, 0) 10px 10px 20px;
+  box-shadow: rgb(0, 0, 0) 2px 2px 8px;
 }
 
 .login-card a {
-  color: white;
+  color: #1a262e;
 }
 
 .login-card button {
-  background-color: #133144;
+  background-color: #d6a228;
   width: 30%;
-  height: 4vh;
+  height: 5vh;
   border-radius: 5px;
-  color: white;
+  color: #1a262e;
   border: none;
-  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+  /* box-shadow: rgb(0, 0, 0) 2px 2px 5px; */
 }
 
 .login-card button:hover {
@@ -142,12 +143,12 @@ main {
   width: 90%;
   height: 4vh;
   background: none;
-  border-bottom: 3px solid #1b2b35;
-  color: white;
+  border-bottom: 3px solid #1a262e;
+  color: #1a262e;
 }
 
 .campos::placeholder {
-  color: white;
+  color: #1a262ebb;
 }
 
 .campos:focus,

@@ -23,6 +23,6 @@ function entrar() {
     msgEmail.innerHTML = "Insira um usuário e senha válidos";
     usuario.focus();
   } else {
-    window.location.assign("../html/home.html");
+    window.location.assign("../html/buscar.html");
   }
 }

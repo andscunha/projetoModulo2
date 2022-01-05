@@ -1,137 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Fonte do projeto -->
     <!-- font-family: 'Inter', sans-serif; -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- CSS BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- Icons BS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
     <!-- css do projeto -->
-    <link rel="stylesheet" href="./css/rec-senha.css">
-    <link rel="stylesheet" href="../css/sobre.css">
-    <title>ResiliaFlix - Recuperação de senha</title>
-    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon">
-</head>
-<body class="bg-primary-color">
-  <header class="user-select-none">
-      <nav class="navbar navbar-expand-lg fixed-top bg-quaternary-color" id="navbar">
-          <div class="container py-3">
-            <a class="navbar-brand d-flex align-items-center ms-4" href="#">
-              <img src="../imagens/logo.png" alt="">
-              <span class="primary-color ms-1">ResiliaFlix</span>
-            </a>
-          </div>
+    <link rel="stylesheet" href="./css/rec-senha.css" />
+    <title>ResiliaFlix</title>
+    <link rel="shortcut icon" href="../imagens/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="user-select-none">
+      <nav
+        class="navbar navbar-expand-lg fixed-top bg-tertiary-color pe-3"
+        id="navbar"
+      >
+        <div class="container pe-3">
+          <a class="navbar-brand d-flex align-items-center ms-4" href="#">
+            <img src="../imagens/logo.png" alt="logo" />
+            <span class="primary-color ms-1">ResiliaFlix</span>
+          </a>
+        </div>
 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="bi bi-list primary-color"></i
+          ></span>
+        </button>
 
-          <button class="navbar-toggler" type="button" data-toglle="collpase" data-target="#navabar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
+        <div
+          class="collapse navbar-collapse justify-content-end me-3"
+          id="navbarTogglerDemo01"
+        >
+          <ul
+            class="navbar-nav d-flex align-items-end justify-content-center pt-1"
+          >
+            <li class="nav-item px-3 pb-1">
+              <a
+                href="../html/sobre.html"
+                class="active primary-color"
+                aria-current="page"
+                id="sobre-header"
+                >SOBRE</a
+              >
+            </li>
 
-
-          <div class="colapse navbar-collapse justify-content-end" id="navbar-links">
-              <ul class="navbar-nav me-5">
-                  <li class="nav-item d-flex align-items-center">
-                      <a href="#" class="active primary-color me-3" aria-current="page" id="cadastre-header">Cadastre-se</a>
-                  </li>
-                  <li class="nav-item">
-                      <button href="#" type="button" class="btn btn-outline-secondary primary-color" id="entrar-header">entrar</button>
-                  </li>
-              </ul>
-          </div>
+            <li class="nav-item">
+              <a href="../pag-login/login.html" class="active"
+                ><button
+                  type="button"
+                  class="btn btn-outline-secondary primary-color"
+                  id="logout-header"
+                >
+                  LOGIN
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
       </nav>
-  </header>
+    </header>
 
     <main>
-      <div class='login-card'>
-          <h2>Olá novamente!</h2>
-          <p>Se você esqueceu sua senha, digite seu e-mail abaixo para receber o formulário de redefinição de senha!</p>
-          <form name='f1' id="formulario">
-            <input class="campos" name="email" id="email" onblur="validaEmail(f1.email)" type="email" placeholder="Insira seu E-mail" required><br>
-            <br><div id='msgemail'></div>
-          </form>
+      <div class="login-card bg-secondary-color">
+        <h2>Olá novamente!</h2>
+        <p>
+          Se você esqueceu sua senha, digite seu e-mail abaixo para receber o
+          formulário de redefinição de senha!
+        </p>
+        <form name="f1" id="formulario">
+          <input
+            class="campos"
+            name="email"
+            id="email"
+            onblur="validaEmail(f1.email)"
+            type="email"
+            placeholder="Insira seu e-mail"
+            required
+          /><br />
+          <br />
+          <div id="msgemail"></div>
+        </form>
 
-          <button onclick="submit()">Enviar</button>
-            
-          
+        <button onclick="submit()">Enviar</button>
       </div>
-     
     </main>
 
-
-    <footer class="d-flex align-items-center justify-content-around primary-color">
+    <footer
+      class="d-flex align-items-center justify-content-around bg-primary-color"
+    >
       <div class="primary-color d-flex align-items-center">
-        <img src="./imagens/logo.png" alt="">
+        <img src="../imagens/logo.png" alt="logo" />
         <div class="ps-2 d-flex flex-column">
-          <span>
-            Copyright &#169; ResiliaFlix - 2021
-          </span>
-          <span>
-            Projeto realizado pelo grupo 3
-          </span>
+          <span> Copyright &#169; ResiliaFlix - 2021 </span>
+          <span> Projeto realizado pelo grupo 2 </span>
         </div>
       </div>
 
-
       <div>
-          <!-- Button trigger modal -->
-        <button type="button" class="btn btn-secondary primary-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-secondary primary-color"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
           Contate-nos
         </button>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title secondary-color" id="exampleModalLabel">Deixe-nos uma mensagem:</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h5 class="modal-title secondary-color" id="exampleModalLabel">
+                  Deixe-nos uma mensagem:
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
               </div>
               <div class="modal-body">
                 <!--form-->
                 <form>
                   <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label secondary-color">Email:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">Garantimos a sua privacidade.</div>
+                    <label
+                      for="exampleInputEmail1"
+                      class="form-label secondary-color"
+                      >Email:</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text">
+                      Garantimos a sua privacidade.
+                    </div>
                   </div>
                   <div class="mb-3">
-                    <label for="textInput" class="form-label secondary-color">Mensagem:</label>
-                    <input type="text" class="form-text" id="textInput">
+                    <label for="textInput" class="form-label secondary-color"
+                      >Mensagem:</label
+                    >
+                    <input type="text" class="form-text" id="textInput" />
                   </div>
-                  <button type="submit" class="btn btn-secondary bg-primary-color primary-color">Enviar</button>
+                  <button
+                    type="submit"
+                    class="btn btn-secondary bg-primary-color primary-color"
+                  >
+                    Enviar
+                  </button>
                 </form>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary bg-primary-color primary-color" data-bs-dismiss="modal">Fechar</button>
+                <button
+                  type="button"
+                  class="btn btn-secondary bg-primary-color primary-color"
+                  data-bs-dismiss="modal"
+                >
+                  Fechar
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
 
       <div class="text-align-center pe-4">
-          <a href="https://www.instagram.com/resilia.br/?hl=pt-br"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.facebook.com/resilia.br/"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.linkedin.com/school/resilia-educacao/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/resilia.br/?hl=pt-br"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/resilia.br/"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.linkedin.com/school/resilia-educacao/"
+          ><i class="bi bi-linkedin"></i
+        ></a>
       </div>
     </footer>
 
-   
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <!-- js do projeto -->
     <script src="./js/rec-senha.js"></script>
-</body>
+  </body>
 </html>
