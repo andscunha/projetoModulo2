@@ -54,8 +54,6 @@ function validaCpf() {
 
 function validaEmail() {
   let dx = document.getElementById("email");
-  dx.value = dx.value + sessionStorage.getItem('item')
-
   if (dx.value.length === 0) {
     dx.classList.remove("input-invalid");
     return false;
@@ -130,7 +128,7 @@ let botaoFormularioTexto = document.getElementById("botao-cadastro-texto");
 
 function finalizaCadastro() {
   if (validaFormulario2()) {
-    window.location = "./precos.html";
+    window.location = "../precos/precos.html";
   } else {
     alert("Você tem campos inválidos!");
   }
