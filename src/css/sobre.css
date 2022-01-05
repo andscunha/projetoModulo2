@@ -17,6 +17,10 @@
     background-color: #1c283057;
 }
 
+.bg-quaternary-color{
+    background-color: #1a262e48;
+}
+
 .primary-color{
     color: #d7d7d7;
 }
@@ -25,16 +29,16 @@
     color: #1a262e;
 }
 
+.tertiary-color{
+    color: #d6a228;
+}
+
 
 /* --------estilo header-------- */
 
-#navbar{
-    box-shadow: 0 2px 5px #11181d;
-    height: 80px;
-}
 
 .navbar-brand img{
-    width: 50px;
+    width: 40px;
 }
 
 .navbar-brand span{
@@ -55,7 +59,6 @@ a{
 .nav-item a{
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 14px;
     width: 100px;
 }
 
@@ -74,4 +77,71 @@ a{
 
 .btn:active{
     background-color: #d6a228;
+}
+
+
+/* --------estilo main-------- */
+
+main{
+    margin-top: 80px;
+}
+
+.sobre{
+    text-align: center;
+}
+
+.imagem-membros{
+    width: 180px;
+    border-radius: 5px;
+    border: 2px solid #d7d7d7ad;
+}
+
+.imagem-membros:hover{
+    border: 2px solid #d6a228;
+}
+
+main .bi{
+    font-size: 30px;
+    padding: 3px;
+}
+
+main .bi:hover{
+    color: #d6a228;
+}
+
+
+/* --------estilo footer-------- */
+
+footer{
+    height: 30vh;
+}
+
+footer img{
+    width: 50px;
+}
+
+footer span{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#textInput{
+    height: 80px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+footer .bi{
+    font-size: 35px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+footer .bi:hover{
+    color: #d6a228;
+}
+
+footer a:visited{
+    color: #d7d7d7;
 }

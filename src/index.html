@@ -20,45 +20,46 @@
 </head>
 
 <body class="bg-primary-color">
-    <header class="user-select-none">
-        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container py-3">
-              <a class="navbar-brand d-flex align-items-center ms-4" href="#">
-                <img src="./imagens/logo.png" alt="">
-                <span class="primary-color ms-1">ResiliaFlix</span>
-              </a>
-            </div>
+  <header class="user-select-none">
+    <nav class="navbar navbar-expand-lg fixed-top bg-tertiary-color pe-3" id="navbar">
+        <div class="pe-3">
+          <a class="navbar-brand d-flex align-items-center ms-4" href="#">
+            <img src="./imagens/logo.png" alt="">
+            <span class="primary-color ms-1">ResiliaFlix</span>
+          </a>
+        </div>
 
 
-            <button class="navbar-toggler" type="button" data-toglle="collpase" data-target="#navabar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="bi bi-list primary-color"></i></span>
+        </button>
 
+        <div class="collapse navbar-collapse justify-content-end me-3" id="navbarTogglerDemo01">
+            <ul class="navbar-nav d-flex align-items-end justify-content-center pt-1">
 
-            <div class="colapse navbar-collapse justify-content-end" id="navbar-links">
-                <ul class="navbar-nav me-5">
-                    <li class="nav-item d-flex align-items-center">
-                        <a href="#" class="active primary-color me-3" aria-current="page" id="sobre-header">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <button href="#" type="button" class="btn btn-outline-secondary primary-color" id="entrar-header">entrar</button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+              <li class="nav-item px-3 pb-1">
+                  <a href="./html/sobre.html" class="active primary-color" aria-current="page" id="sobre-header">Sobre</a>
+              </li>
+
+              <li class="nav-item pe-2">
+                  <a href="#" class="active"><button type="button" class="btn btn-outline-secondary primary-color" id="entrar-header">login</button></a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
 
 
     <main>
-        <div class="primary-color d-flex flex-column justify-content-center align-items-center" id="intro-um">
-            <h2 class="mb-5">Prepare-se para um mundo novo de escolhas e aventuras.</h2>
+        <div class="primary-color d-flex flex-column justify-content-center align-items-center list-group" id="intro-um">
+            <h2 class="mb-5">Prepare-se para um mundo novo de escolhas e aventuras!</h2>
 
             <div class="d-flex justify-content-around" id="intro-texto">
                 <div class="card bg-tertiary-color">
                     <div class="card-body">
-                      <h5 class="card-title primary-color">Facilidade de acesso.</h5>
+                      <h5 class="card-title primary-color">Facilidade de acesso, sem compromisso.</h5>
                       
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Aproveite como quiser, até quando quiser. Teste agora!</p>
                     </div>
                   </div>
 
@@ -66,7 +67,7 @@
                     <div class="card-body">
                       <h5 class="card-title primary-color">Filmes a qualquer hora, em qualquer lugar.</h5>
                       
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Experimente o conforto de desfrutar nossas histórias quando quiser!</p>
                     </div>
                   </div>
 
@@ -74,28 +75,44 @@
                     <div class="card-body">
                       <h5 class="card-title primary-color">Preço acessível para públicos diversos.</h5>
                       
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Planos que cabem no seu bolso e na sua necessidade.</p>
                     </div>
                   </div>
             </div>
 
             <div class= "d-flex align-items-center justify-content-around mt-2" id="botoes-um">
-              <button href="#" type="button" class="mt-5 btn btn-outline-secondary primary-color" id="saiba">saiba mais</button>
+              <a href="#intro-dois" class="mt-5 list-group-item list-group-item-action d-flex justify-content-center bg-transparent">
+                <button type="button" class="btn btn-outline-secondary primary-color" id="saiba">saiba mais</button>
+              </a>
+              
 
-              <span class="mt-5 ">ou</span>
+              <span class="mt-5">ou</span>
 
-              <button href="#" type="button" class="mt-5 btn btn-outline-secondary primary-color" id="cadastre-se">Cadastra-se já</button>
+              <a href="#button-addon2" class="mt-5 list-group-item list-group-item-action d-flex justify-content-center bg-transparent">
+                <button type="button" class="btn btn-outline-secondary primary-color" id="cadastre">Cadastra-se já</button>
+              </a>
             </div>
         </div>
 
         
-        <div class="bg-secondary-color d-flex align-items-center" id="intro-dois">
+        <div class="bg-secondary-color d-flex align-items-center justify-content-center" id="intro-dois">
           <div class="w-50 px-5" id="">
-            <p id="texto-intro-dois">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="py-2">
+              <h3 class="titulo-intro-dois">Opções para diversos gostos.</h3>
+              <p class="texto-intro-dois">Do terror ao romance, à ficção científica, ao drama. Nunca fique sem opções!</p>
+            </div>
 
-            <p id="texto-intro-dois">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-            <p id="texto-intro-dois">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="py-3">
+              <h3 class="titulo-intro-dois">Conteúdo para todas as idades.</h3>
+              <p class="texto-intro-dois">Porque as crianças também merecem aproveitar esse mundo!</p>
+            </div>
+
+
+            <div class="py-2">
+              <h3 class="titulo-intro-dois">Acesso total a todo nosso acervo.</h3>
+              <p class="texto-intro-dois">Aproveite a infinidade do nosso conteúdo todinho na palma da sua mão.</p>
+            </div>
           </div>
 
 
@@ -133,13 +150,49 @@
             </button>
           </div>
         </div>
+
+        <div class="bg-primary-color d-flex align-items-center justify-content-center flex-column" id="intro-tres">
+          <h3 class="mt-3 primary-color">Assista aonde quiser:</h3>
+
+          <div class="mt-5 d-flex primary-color">
+            <div class="d-flex flex-column align-items-center options">
+              <i class="bi bi-tv icons"></i>
+              <p>smart tv</p>
+              <i class="bi bi-dash-lg dash"></i>
+            </div>
+
+
+            <div class="d-flex flex-column align-items-center options">
+              <i class="bi bi-laptop icons"></i>
+              <p>Computador</p>
+              <i class="bi bi-dash-lg dash"></i>
+            </div>
+
+
+            <div class="d-flex flex-column align-items-center options">
+              <i class="bi bi-phone icons" id="phone"></i>
+              <p>celular</p>
+              <i class="bi bi-dash-lg dash"></i>
+            </div>
+
+
+            <div class="d-flex flex-column align-items-center options">
+              <i class="bi bi-tablet icons"></i>
+              <p>tablet</p>
+              <i class="bi bi-dash-lg dash"></i>
+            </div>
+          </div>
+          
+        </div>
         
 
-        <div class="bg-primary-color d-flex align-items-center justify-content-center" id="intro-tres">
-            <div class="input-group mb-3 w-50" id="area-email">
-                <input type="text" class="form-control" placeholder="Digite seu email" aria-label="email" aria-describedby="button-addon2">
+        <div class="bg-primary-color d-flex align-items-center justify-content-center" id="intro-quatro">
+          <p class="primary-color">Preparado para viver várias histórias no conforto da sua casa?</p>
 
-                <div class="input-group-append">
+            <div class="input-group mb-3 w-50 d-flex align-items-center" id="area-email">
+                <input type="text" class="form-control rounded" placeholder="Digite seu email" aria-label="email" aria-describedby="button-addon2">
+
+                <div class="input-group-append d-flex align-items-center">
                     <button class="btn btn-outline-secondary primary-color" type="button" id="button-addon2">Cadastrar</button>
                 </div>
             </div>
@@ -147,7 +200,63 @@
     </main>
 
 
-    <footer>
+    <footer class="d-flex align-items-center justify-content-around primary-color">
+      <div class="primary-color d-flex align-items-center">
+        <img src="./imagens/logo.png" alt="">
+        <div class="ps-2 d-flex flex-column">
+          <span>
+            Copyright &#169; ResiliaFlix - 2021
+          </span>
+          <span>
+            Projeto realizado pelo grupo 3
+          </span>
+        </div>
+      </div>
+
+
+      <div>
+          <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary primary-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Contate-nos
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title secondary-color" id="exampleModalLabel">Deixe-nos uma mensagem:</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!--form-->
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label secondary-color">Email:</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">Garantimos a sua privacidade.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="textInput" class="form-label secondary-color">Mensagem:</label>
+                    <input type="text" class="form-text" id="textInput">
+                  </div>
+                  <button type="submit" class="btn btn-secondary bg-primary-color primary-color">Enviar</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary bg-primary-color primary-color" data-bs-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="text-align-center pe-4">
+          <a href="https://www.instagram.com/resilia.br/?hl=pt-br"><i class="bi bi-instagram primary-color"></i></a>
+          <a href="https://www.facebook.com/resilia.br/"><i class="bi bi-facebook primary-color"></i></a>
+          <a href="https://www.linkedin.com/school/resilia-educacao/"><i class="bi bi-linkedin primary-color"></i></a>
+      </div>
     </footer>
 
 

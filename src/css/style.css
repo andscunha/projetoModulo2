@@ -17,6 +17,15 @@
     background-color: #1c283057;
 }
 
+.bg-quaternary-color{
+    background-color: #1a262e48;
+}
+
+.bg-transparent{
+    background-color: transparent;
+    border: none;
+}
+
 .primary-color{
     color: #d7d7d7;
 }
@@ -25,16 +34,19 @@
     color: #1a262e;
 }
 
+.tertiary-color{
+    color: #d6a228;
+}
+
 
 /* --------estilo header-------- */
 
-#navbar{
-    box-shadow: 0 2px 5px #11181d;
-    height: 70px;
+header{
+    width: 100%;
 }
 
 .navbar-brand img{
-    width: 50px;
+    width: 40px;
 }
 
 .navbar-brand span{
@@ -52,16 +64,16 @@ a{
     transition: 0.1s;
 }
 
-.nav-item a{
+#sobre-header{
     text-transform: uppercase;
     font-weight: 400;
 }
 
-.nav-item a:hover{
+#sobre-header:hover{
     color: #888888;
 }
 
-.nav-item a:active{
+#sobre-header:active{
     color: #d6a228;
 }
 
@@ -92,11 +104,20 @@ main{
 }
 
 .card{
-    width: 18rem;
+    width: 30%;
+    height: 170px;
+    font-size: 18px;
 }
 
 #botoes-um{
-    width: 700px;
+    width: 70%;
+    
+}
+
+#saiba, #cadastre{
+    width: 100%;
+    font-size: 16px;
+    height: 10%;
 }
 
 #botoes-um span{
@@ -105,30 +126,100 @@ main{
     font-weight: 500;
 }
 
-#saiba, #cadastre-se{
-    width: 300px;
-}
-
 #intro-dois{
     min-height: 100vh;
 }
 
-#texto-intro-dois{
-    font-size: 20px;
-    font-weight: 500;
+.titulo-intro-dois{
+    font-size: 30px;
+}
+
+.texto-intro-dois{
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .carousel-inner{
-    width: 400px;
+    width: 50%;
 }
 
 #intro-tres{
-    height: 70vh;
+    min-height: 100vh;
 }
 
+#intro-tres h3{
+    font-weight: 400;
+}
+
+.options{
+    transition: 0.2s;
+}
+
+.options:hover{
+    color: #d6a228;
+}
+
+#intro-tres .icons{
+    font-size: 150px;
+    padding: 0 70px;
+}
+
+#intro-tres p{
+    text-transform: uppercase;
+}
+
+
+.dash{
+    font-size: 50px;
+    color: #d6a228dc;
+}
+
+#intro-quatro{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro-quatro p{
+    font-size: 20px;
+}
+
+#area-email{
+    height: 10%;
+}
 
 /* --------estilo footer-------- */
 
 footer{
     height: 30vh;
+}
+
+footer img{
+    width: 50px;
+}
+
+footer span{
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#textInput{
+    height: 80px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+footer .bi{
+    font-size: 35px;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+footer .bi:hover{
+    color: #d6a228;
+}
+
+footer a:visited{
+    color: #d7d7d7;
 }
