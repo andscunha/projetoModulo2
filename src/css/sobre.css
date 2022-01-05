@@ -86,6 +86,10 @@ main{
     margin-top: 80px;
 }
 
+.sobre{
+    text-align: center;
+}
+
 .imagem-membros{
     width: 180px;
     border-radius: 5px;
