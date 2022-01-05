@@ -3,17 +3,97 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  padding-top: 88px;
   background: #d3d3d3;
+  overflow-x: hidden;
 }
 
-.box-shadow {
-  background: #121b20;
-  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1);
+.bg-primary-color {
+  background-color: #1c2830;
 }
-main{
+.bg-secondary-color {
+  background-color: #d7d7d7;
+}
+
+.bg-tertiary-color {
+  background-color: #1c283057;
+}
+
+.bg-quaternary-color {
+  background-color: #1a262e48;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.primary-color {
+  color: #d7d7d7;
+}
+
+.secondary-color {
+  color: #1a262e;
+}
+
+.tertiary-color {
+  color: #d6a228;
+}
+
+header {
+  width: 100%;
+}
+
+.navbar-brand img {
+  width: 40px;
+}
+
+.navbar-brand span {
+  font-size: 30px;
+  font-weight: 700;
+  transition: 0.1s;
+}
+
+.navbar-brand span:hover {
+  color: #d6a228;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+.search {
+  width: 400px;
+}
+
+#sobre-header,
+#mySearch {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#sobre-header:hover,
+#mySearch:hover {
+  color: #888888;
+}
+
+#sobre-header:active,
+#mySearch:active {
+  color: #d6a228;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.btn:active {
+  background-color: #d6a228;
+}
+main {
+  padding-top: 90px;
   width: 100%;
   height: 70vh;
   background-color: #1c2830;
@@ -22,43 +102,42 @@ main{
   justify-content: center;
 }
 
-.login-card{
+.login-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #3d4042;
+  background-color: #23333d;
   width: 40%;
   height: 55vh;
   padding: 10px;
   border-radius: 20px;
   color: white;
   text-align: center;
-  box-shadow: rgb(0,0,0) 10px 10px 20px;
- 
+  box-shadow: rgb(0, 0, 0) 10px 10px 20px;
 }
 
-.login-card a{
+.login-card a {
   color: white;
 }
 
-.login-card button{
-  background-color: #133144 ;
+.login-card button {
+  background-color: #133144;
   width: 30%;
   height: 4vh;
   border-radius: 5px;
   color: white;
   border: none;
-  box-shadow: rgb(0,0,0) 5px 5px 10px;
+  box-shadow: rgb(0, 0, 0) 5px 5px 10px;
 }
 
-.login-card button:hover{
-  background-color: #1b2b35 ;
+.login-card button:hover {
+  background-color: #1b2b35;
   transition: 0.4s;
   cursor: pointer;
 }
 
-.campos{
+.campos {
   border: none;
   width: 90%;
   height: 4vh;
@@ -67,18 +146,47 @@ main{
   color: white;
 }
 
-.campos::placeholder{
- color: white; 
+.campos::placeholder {
+  color: white;
 }
 
-.campos:focus, input:focus{
+.campos:focus,
+input:focus {
   box-shadow: 0 0 0 0;
   outline: 0;
 }
 
 footer {
-  background: #121b20;
+  padding-top: 40px;
+  height: 30vh;
+}
+
+footer img {
+  width: 50px;
+}
+
+footer span {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+#textInput {
+  height: 80px;
   width: 100%;
-  text-align: center;
-  position: absolute;
+  padding-left: 5px;
+}
+
+footer .bi {
+  font-size: 35px;
+  padding: 0 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+footer .bi:hover {
+  color: #d6a228;
+}
+
+footer a:visited {
+  color: #d7d7d7;
 }
