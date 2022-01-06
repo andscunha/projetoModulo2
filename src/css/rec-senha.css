@@ -196,3 +196,19 @@ footer .bi:hover {
 footer a:visited {
   color: #d7d7d7;
 }
+
+
+@media (max-width: 1050px){
+
+  .login-card{
+    width: 50%;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 490px){
+
+  .login-card{
+    width: 90%;
+  }
+}
