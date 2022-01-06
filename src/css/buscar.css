@@ -178,6 +178,10 @@ footer a:visited {
 }
 
 @media (max-width: 990px) {
+  .mobile {
+    max-width: 100%;
+  }
+
   .catalinha {
     padding: 30px;
   }
@@ -190,5 +194,12 @@ footer a:visited {
     margin-bottom: 10px;
     margin-right: 0;
     padding-right: 0;
+    max-width: 98%;
+  }
+
+  .footer-mob {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 }
