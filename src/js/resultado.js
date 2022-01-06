@@ -1,7 +1,7 @@
 //Models
 
 var filme1 = sessionStorage.getItem("item_pesq");
-var assistir = document.getElementById('assistir')
+var assistir = document.getElementById("assistir");
 
 async function apiFilme(filme1) {
   const chave = "b0df158e";
@@ -13,6 +13,7 @@ async function apiFilme(filme1) {
       sucesso(respostaApi);
     } else {
       $(".posicao").css({ bottom: "0", position: "fixed", width: "100%" });
+      $("#assistir").css({ display: "none" });
       throw new Error(
         "O filme não foi encontrado! Tente novamente pesquisando os títulos em Inglês."
       );
@@ -53,10 +54,10 @@ function erro(error) {
 
 //botao assistir
 
-function verFilme(){
-  alert('Em desenvolvimento')
+function verFilme() {
+  alert("Em desenvolvimento");
 }
 
 assistir.addEventListener("click", () => {
-  verFilme()
+  verFilme();
 });
