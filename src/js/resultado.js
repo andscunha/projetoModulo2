@@ -1,6 +1,7 @@
 //Models
 
 var filme1 = sessionStorage.getItem("item_pesq");
+var assistir = document.getElementById('assistir')
 
 async function apiFilme(filme1) {
   const chave = "b0df158e";
@@ -49,3 +50,13 @@ function erro(error) {
   $("#poster-filme").empty();
   $("#titulo").html(`${error}`);
 }
+
+//botao assistir
+
+function verFilme(){
+  alert('Em desenvolvimento')
+}
+
+assistir.addEventListener("click", () => {
+  verFilme()
+});
