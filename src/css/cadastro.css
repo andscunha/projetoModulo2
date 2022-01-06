@@ -210,3 +210,10 @@ h1 {
 #cadastro-form-2 {
   display: none;
 }
+
+@media (max-width: 950px){
+
+  .cadastro-input:placeholder-shown ~ .cadastro-input-label{
+    font-size: 0.9rem;
+  }
+}
