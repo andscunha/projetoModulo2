@@ -22,6 +22,7 @@ body {
   border-radius: 100px;
   position: relative;
 }
+
 .btn::after {
   content: "";
   position: absolute;
@@ -34,6 +35,7 @@ body {
   box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0), 0 3px 3px rgba(0, 0, 0, 0.2);
   border-radius: 100px;
 }
+
 .btn:hover::after {
   background: rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.2);
@@ -50,20 +52,24 @@ body {
   position: relative;
   clear: both;
 }
+
 .form fieldset.fieldset-expiration {
   float: left;
   width: 60%;
 }
+
 .form fieldset.fieldset-expiration .select {
   width: 84px;
   margin-right: 12px;
   float: left;
 }
+
 .form fieldset.fieldset-ccv {
   clear: none;
   float: right;
   width: 86px;
 }
+
 .form fieldset label {
   display: block;
   text-transform: uppercase;
@@ -91,18 +97,22 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
 }
+
 .form fieldset input.input-cart-number,
 .form fieldset .select.input-cart-number {
   display: inline-block;
   margin-right: 8px;
 }
+
 .form fieldset input.input-cart-number:last-child,
 .form fieldset .select.input-cart-number:last-child {
   margin-right: 0;
 }
+
 .form fieldset .select {
   position: relative;
 }
+
 .form fieldset .select::after {
   content: "";
   border-top: 8px solid #222;
@@ -114,6 +124,7 @@ body {
   right: 10px;
   pointer-events: none;
 }
+
 .form fieldset .select select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -127,10 +138,12 @@ body {
   left: 6px;
   background: none;
 }
+
 .form fieldset .select select :-moz-focusring {
   color: transparent;
   text-shadow: 0 0 0 #000;
 }
+
 button {
   width: 100%;
   outline: none !important;
@@ -144,9 +157,11 @@ button {
   margin-top: 90px;
   font-family: inherit;
 }
+
 button .fa {
   margin-right: 6px;
 }
+
 .checkout {
   margin: 280px auto 30px;
   position: relative;
@@ -156,6 +171,7 @@ button .fa {
   padding: 160px 45px 30px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
+
 .credit-card-box {
   perspective: 1000;
   width: 400px;
@@ -165,10 +181,12 @@ button .fa {
   left: 50%;
   transform: translateX(-50%);
 }
+
 .credit-card-box:hover .flip,
 .credit-card-box.hover .flip {
   transform: rotateY(180deg);
 }
+
 .credit-card-box .front,
 .credit-card-box .back {
   width: 400px;
@@ -185,6 +203,7 @@ button .fa {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
+
 .credit-card-box .front::before,
 .credit-card-box .back::before {
   content: "";
@@ -197,32 +216,39 @@ button .fa {
   background-size: cover;
   opacity: 0.05;
 }
+
 .credit-card-box .flip {
   transition: 0.6s;
   transform-style: preserve-3d;
   position: relative;
 }
+
 .credit-card-box .logo {
   position: absolute;
   top: 9px;
   right: 20px;
   width: 60px;
 }
+
 .credit-card-box .logo svg {
   width: 100%;
   height: auto;
   fill: #fff;
 }
+
 .credit-card-box .front {
   z-index: 2;
   transform: rotateY(0deg);
 }
+
 .credit-card-box .back {
   transform: rotateY(180deg);
 }
+
 .credit-card-box .back .logo {
   top: 185px;
 }
+
 .credit-card-box .chip {
   position: absolute;
   width: 60px;
@@ -232,6 +258,7 @@ button .fa {
   background: linear-gradient(135deg, #ddccf0 0%, #d1e9f5 44%, #f8ece7 100%);
   border-radius: 8px;
 }
+
 .credit-card-box .chip::before {
   content: "";
   position: absolute;
@@ -245,6 +272,7 @@ button .fa {
   height: 70%;
   border-radius: 5px;
 }
+
 .credit-card-box .strip {
   background: linear-gradient(135deg, #404040, #1a1a1a);
   position: absolute;
@@ -253,6 +281,7 @@ button .fa {
   top: 30px;
   left: 0;
 }
+
 .credit-card-box .number {
   position: absolute;
   margin: 0 auto;
@@ -260,6 +289,7 @@ button .fa {
   left: 19px;
   font-size: 38px;
 }
+
 .credit-card-box label {
   font-size: 10px;
   letter-spacing: 1px;
@@ -270,6 +300,7 @@ button .fa {
   display: block;
   margin-bottom: 3px;
 }
+
 .credit-card-box .card-holder,
 .credit-card-box .card-expiration-date {
   position: absolute;
@@ -279,11 +310,13 @@ button .fa {
   font-size: 22px;
   text-transform: capitalize;
 }
+
 .credit-card-box .card-expiration-date {
   text-align: right;
   left: auto;
   right: 20px;
 }
+
 .credit-card-box .ccv {
   height: 36px;
   background: #fff;
@@ -298,6 +331,7 @@ button .fa {
   text-align: right;
   padding: 10px;
 }
+
 .credit-card-box .ccv label {
   margin: -25px 0 14px;
   color: #fff;
@@ -312,6 +346,7 @@ button .fa {
   max-width: 200px;
   padding: 10px;
 }
+
 .the-most img {
   max-width: 100%;
 }

@@ -12,6 +12,7 @@ body {
 .bg-primary-color {
   background-color: #1c2830;
 }
+
 .bg-secondary-color {
   background-color: #d7d7d7;
 }
@@ -44,9 +45,6 @@ body {
 header {
   width: 100%;
 }
-/* #navbar {
-  height: 60px;
-} */
 
 .navbar-brand img {
   width: 40px;
@@ -157,6 +155,7 @@ footer a:visited {
     padding-right: 0;
     max-width: 98%;
   }
+
   .informacoes {
     max-width: 110%;
     padding-right: 30px;
