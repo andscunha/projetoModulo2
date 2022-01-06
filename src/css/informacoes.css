@@ -108,6 +108,10 @@ main {
   padding-left: 30px;
   border: 2px solid #121b20;
 }
+.erro {
+  display: none;
+  width: 80%;
+}
 
 footer {
   padding-top: 40px;
@@ -159,6 +163,11 @@ footer a:visited {
   .informacoes {
     max-width: 110%;
     padding-right: 30px;
+  }
+  .erro {
+    display: none;
+    width: 30%;
+    padding: 0;
   }
 
   #infoContainer {

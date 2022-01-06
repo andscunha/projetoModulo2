@@ -14,6 +14,8 @@ async function apiFilme(filme1) {
     } else {
       $(".posicao").css({ bottom: "0", position: "fixed", width: "100%" });
       $("#assistir").css({ display: "none" });
+      $(".erro").css({ display: "flex" });
+
       throw new Error(
         "O filme não foi encontrado! Tente novamente pesquisando os títulos em Inglês."
       );
