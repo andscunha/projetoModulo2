@@ -13,6 +13,7 @@ body {
 .bg-primary-color {
   background-color: #1c2830;
 }
+
 .bg-secondary-color {
   background-color: #d7d7d7;
 }
@@ -93,6 +94,7 @@ a {
 .btn:active {
   background-color: #d6a228;
 }
+
 main {
   padding-top: 90px;
   width: 100%;
@@ -195,17 +197,15 @@ footer a:visited {
 
 /* mobile*/
 
-@media (max-width: 1050px){
-
-  .login-card{
+@media (max-width: 1050px) {
+  .login-card {
     width: 50%;
     height: 70vh;
   }
 }
 
-@media (max-width: 490px){
-
-  .login-card{
+@media (max-width: 490px) {
+  .login-card {
     width: 90%;
   }
 }
