@@ -136,6 +136,7 @@ main {
   background-color: #1b2b35;
   transition: 0.4s;
   cursor: pointer;
+  color: #d3d3d3;
 }
 
 .campos {

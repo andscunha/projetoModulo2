@@ -11,6 +11,7 @@ async function apiFilme(filme1) {
     if (respostaApi.Title !== undefined) {
       sucesso(respostaApi);
     } else {
+      $(".posicao").css({ bottom: "0", position: "fixed", width: "100%" });
       throw new Error(
         "O filme não foi encontrado! Tente novamente pesquisando os títulos em Inglês."
       );
