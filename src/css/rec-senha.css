@@ -199,17 +199,25 @@ footer a:visited {
 
 /* mobile*/
 
-@media (max-width: 1050px){
-
-  .login-card{
+@media (max-width: 1050px) {
+  .login-card {
     width: 50%;
     height: 50vh;
   }
+  .footer-mob {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 }
 
-@media (max-width: 490px){
-
-  .login-card{
+@media (max-width: 490px) {
+  .login-card {
     width: 90%;
+  }
+  .footer-mob {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
   }
 }
