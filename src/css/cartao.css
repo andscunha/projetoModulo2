@@ -9,11 +9,9 @@ html,
 body {
   min-height: 100%;
   font-family: "Inter", sans-serif;
-}
-
-body {
   background-color: #1c2830;
 }
+
 .btn {
   display: block;
   background: #bded7d;
@@ -150,7 +148,7 @@ button .fa {
   margin-right: 6px;
 }
 .checkout {
-  margin: 150px auto 30px;
+  margin: 280px auto 30px;
   position: relative;
   width: 460px;
   background: white;
