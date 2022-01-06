@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #23333d;
+  background-color: #1c2830;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@ body {
   display: inline-block;
   margin-bottom: 40px;
   margin-top: 80px;
-  border: 2px solid #23333d;
+  border: 2px solid #1c2830;
   color: black;
   padding: 18px 40px;
   border-radius: 8px;
@@ -89,7 +89,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #23333d;
+  background-color: #1c2830;
   color: #fff;
 }
 

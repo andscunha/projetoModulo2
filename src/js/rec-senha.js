@@ -22,6 +22,7 @@ function validaEmail(field) {
     console.log(validaEmail());
   } else {
     msguser.innerHTML = "<font color='red'>E-mail inválido!</font>";
+    alert("Digite um e-mail válido!");
   }
 }
 
@@ -32,6 +33,6 @@ function submit() {
     msguser.innerHTML = "Digite um E-mail válido!";
   } else {
     document.getElementById("formulario").submit();
-    alert("E-mail enviado com sucesso!");
+    alert("E-mail de recuperação enviado com sucesso!");
   }
 }
