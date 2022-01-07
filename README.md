@@ -25,7 +25,7 @@ O site deveria conter as seguintes páginas: inicial, de exibição de catálogo
 
 ![cadastro](https://user-images.githubusercontent.com/93748083/148609681-96c86ae9-80c7-4d2d-b32b-a132fbf12abd.png)
 ![cadastro2](https://user-images.githubusercontent.com/93748083/148609692-3c310c52-9cfb-4a6d-91c8-08cbdd588c55.png)
-![login](https://user-images.githubusercontent.com/93748083/148609699-20d8d203-b8e4-421a-bf62-7298e58cf331.png)
+![login](https://user-images.githubusercontent.com/93748083/148613694-75dd4a60-87be-4a9a-ba0f-0dd6b027fcf1.png)
 ![recuperacao](https://user-images.githubusercontent.com/93748083/148609716-121e9e83-7cee-41c8-ab0a-cb179f7a38ad.png)
 ![home](https://user-images.githubusercontent.com/93748083/148609734-ec1bfacf-15e8-4348-adeb-b6ad036d4d03.png)
 ![home2](https://user-images.githubusercontent.com/93748083/148609740-66e3a69c-e4b5-45b8-b78b-47a1dc3c4bee.png)
