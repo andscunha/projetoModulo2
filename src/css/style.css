@@ -102,6 +102,10 @@ main {
   width: 80%;
 }
 
+h2{
+  text-align: center;
+}
+
 .card {
   width: 30%;
   height: 170px;
@@ -138,12 +142,24 @@ main {
   font-weight: 400;
 }
 
-.carousel-inner {
-  width: 50%;
+.carousel{
+    width: 50%;
 }
 
-#intro-tres {
-  min-height: 100vh;
+.carousel-inner{
+    width: 70%;
+}
+
+.carousel-item{
+    height: 530px;
+}
+
+.carousel-item img{
+    background-size: contain;
+}
+
+#intro-tres{
+    min-height: 100vh;
 }
 
 #intro-tres h3 {
@@ -183,6 +199,7 @@ main {
 }
 
 #area-email {
+  width: 50%;
   height: 10%;
 }
 
@@ -226,6 +243,131 @@ footer .bi:hover {
   color: #d6a228;
 }
 
-footer a:visited {
-  color: #d7d7d7;
+footer a:visited{
+    color: #d7d7d7;
+}
+
+@media (max-width: 1100px){
+    #intro-um{
+        height: auto;
+        padding: 90px 0 30px;
+    }
+
+    #intro-texto{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .card{
+        height: auto;
+    }
+
+    #intro-dois{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .intro-dois-texto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo-intro-dois{
+        font-size: 25px;
+    }
+
+    .texto-intro-dois{
+        font-size: 20px;
+    }
+
+    .carousel-inner{
+        padding: 15px 0 10px;
+    }
+
+    .carousel-item{
+      height: 490px;
+    }
+
+    .carousel-item img{
+        background-size: contain;
+    }
+
+    .icones{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    
+    #intro-quatro p{
+      text-align: center;
+    }
+    
+    #area-email{
+      width: 70%;
+    }
+
+    .footer-mob {
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 700px){
+  main{
+    background: #1a262e;
+  }
+
+  #intro-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 70%;
+    margin-bottom: 15px;
+  }
+
+  #botoes-um{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .carousel{
+    width: 90%;
+  }
+
+  .carousel-inner{
+    width: 100%;
+  }
+
+  .carousel-item{
+    width: 100%;
+    height: 430px;
+  }
+
+  .carousel-item img{
+    background-size: contain;
+}
+
+  #area-email{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-control{
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
