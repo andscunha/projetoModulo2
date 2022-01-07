@@ -198,19 +198,6 @@ h2{
   font-size: 20px;
 }
 
-#area-email {
-  width: 50%;
-  height: 10%;
-}
-
-.cadastro-input:invalid {
-  box-shadow: none;
-}
-
-.input-invalid {
-  border: red solid 1.7px;
-}
-
 /* --------estilo footer-------- */
 
 footer {
@@ -306,10 +293,6 @@ footer a:visited{
     #intro-quatro p{
       text-align: center;
     }
-    
-    #area-email{
-      width: 70%;
-    }
 
     .footer-mob {
       flex-direction: column;
@@ -359,12 +342,6 @@ footer a:visited{
   .carousel-item img{
     background-size: contain;
 }
-
-  #area-email{
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-  }
 
   .form-control{
     width: 100%;
