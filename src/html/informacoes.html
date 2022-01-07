@@ -81,6 +81,7 @@
                   type="submit"
                   class="btn btn-outline-secondary form__submit primary-color"
                   value="Buscar"
+                  id="buscar-filmes"
                 />
               </div>
             </li>
@@ -133,7 +134,6 @@
             <button
               class="btn btn-outline-secondary primary-color"
               id="assistir"
-              onclick="verFilme()"
             >
               Assistir
             </button>
@@ -268,7 +268,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../js/catalogo.js"></script>
-    <script src="../js/resultado.js"></script>
+    <script src="../js/models/busca-filmes-api-model.js"></script>
+    <script src="../js/views/busca-filmes-view.js"></script>
+    <script src="../js/controllers/busca-filmes-api-controller.js"></script>
+    <script src="../js/controllers/busca-filmes-catalogo.js"></script>
   </body>
 </html>

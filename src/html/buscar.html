@@ -80,6 +80,7 @@
                   type="submit"
                   class="btn btn-outline-secondary form__submit primary-color"
                   value="Buscar"
+                  id="buscar-filmes"
                 />
               </div>
             </li>
@@ -162,77 +163,75 @@
         <div class="row catalinha py-4  my-5">
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/5.jpg" class="d-block w-100 catimg" alt="Sing 2" onclick="(homeFilme('Sing 2'))"> 
+            <a href="#"><img class="d-block w-100 catimg" alt="Sing 2"  id="n1"> 
             </a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/16.jpg" class="d-block w-100 catimg" alt="Shrek" onclick="(homeFilme('Shrek'))">
+            <a href="#"><img  class="d-block w-100 catimg" alt="Shrek"id="n2">
             </a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/7.jpg" class="d-block w-100 catimg" alt="Toy Story" onclick="(homeFilme('Toy Story'))"></a>
+            <a href="#"><img class="d-block w-100 catimg" alt="Toy Story" id="n3"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/17.jpg" class="d-block w-100 catimg" alt="Moana" onclick="(homeFilme('Moana'))" ></a>
+            <a href="#"><img class="d-block w-100 catimg" alt="Moana" id="n4"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/18.jpg" class="d-block w-100 catimg" alt="A viagem de Chihiro" onclick="(homeFilme('Le Voyage De Chihiro'))" ></a>
+            <a href="#"><img  class="d-block w-100 catimg" alt="A viagem de Chihiro" id="n5"></a>
 
           </div>
         </div>
 
         <div class="row catalinha py-4  my-5">
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/19.jpg" class="d-block w-100 catimg" alt="50 first dates" onclick="(homeFilme('50 first dates'))"></a>
+            <a href="#"><img class="d-block w-100 catimg" alt="50 first dates"  id="n6"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/10.jpg" class="d-block w-100 catimg" alt="Epic Movie" onclick="(homeFilme('Epic Movie'))"></a>
+            <a href="#"><img  class="d-block w-100 catimg" alt="Epic Movie"  id="n7"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/11.jpg" class="d-block w-100 catimg" alt="Home Alone" onclick="(homeFilme('Home Alone'))"></a>
+            <a href="#"><img  class="d-block w-100 catimg" alt="Home Alone"  id="n8"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/12.jpg" class="d-block w-100 catimg" alt="Meet the parents" onclick="(homeFilme('Meet the parents'))"></a>
+            <a href="#"><img  class="d-block w-100 catimg" alt="Meet the parents"  id="n9"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/8.jpg" class="d-block w-100 catimg" alt="Free guy" onclick="(homeFilme('Free guy'))"></a>
+            <a href="#"><img class="d-block w-100 catimg" alt="Free guy"  id="n10"></a>
 
           </div>
         </div>
 
         <div class="row catalinha py-4 mt-5 borda">
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/13.jpg" class="d-block w-100 catimg" alt="Running Scared" onclick="(homeFilme('Running Scared'))" ></a>
+            <a href="#"><img src="../assets/poster-home/13.jpg" class="d-block w-100 catimg" alt="Running Scared" onclick="(homeFilme('Running Scared'))" id="n11"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/14.jpg" class="d-block w-100 catimg" alt="Maze runner" onclick="(homeFilme('Maze runner'))"></a>
+            <a href="#"><img src="../assets/poster-home/14.jpg" class="d-block w-100 catimg" alt="Maze runner" onclick="(homeFilme('Maze runner'))" id="n12"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/15.jpg" class="d-block w-100 catimg" alt="The green mile" onclick="(homeFilme('The green mile'))"></a>
+            <a href="#"><img class="d-block w-100 catimg" alt="The green mile"  id="n13"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/9.jpg" class="d-block w-100 catimg" alt="The Avengers" onclick="(homeFilme('The Avengers'))"></a>
+            <a href="#"><img class="d-block w-100 catimg" alt="The Avengers"  id="n14"></a>
           </div>
 
           <div class="col-md-2">
-            <a href="#"><img src="../assets/poster-home/6.jpg" class="d-block w-100 catimg" alt="Jurassic World" onclick="(homeFilme('Jurassic World'))"></a>
+            <a href="#"><img  class="d-block w-100 catimg" alt="Jurassic World" id="n15"></a>
 
           </div>
         </div>
       </section>
-
-     
     </main>
 
     <footer class="d-flex align-items-center justify-content-around bg-primary-color footer-mob">
@@ -308,8 +307,11 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="../js/catalogo.js"></script>
-    <script src="../js/resultado.js"></script>
+    <script src="../js/models/busca-filmes-api-model.js"></script>
+    <script src="../js/views/busca-filmes-view.js"></script>
+    <script src="../js/controllers/busca-filmes-api-controller.js"></script>
+    <script src="../js/controllers/busca-filmes-catalogo.js"></script>
+   
   
     
   </body>
