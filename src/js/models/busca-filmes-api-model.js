@@ -48,28 +48,3 @@ class Model {
     this.error = false;
   }
 }
-
-/* var filme1 = sessionStorage.getItem("item_pesq");
-var assistir = document.getElementById("assistir");
-
-async function apiFilme(filme1) {
-  const chave = "b0df158e";
-  let url = `https://www.omdbapi.com/?apikey=${chave}&t=${filme1}`;
-  let respostaApi = await fetch(url).then((response) => response.json());
-  console.log(respostaApi);
-  try {
-    if (respostaApi.Title !== undefined) {
-      sucesso(respostaApi);
-    } else {
-      $(".posicao").css({ bottom: "0", position: "fixed", width: "100%" });
-      $("#assistir").css({ display: "none" });
-      $(".erro").css({ display: "flex" });
-
-      throw new Error(
-        "O filme não foi encontrado! Tente novamente pesquisando os títulos em Inglês."
-      );
-    }
-  } catch (error) {
-    erro(error);
-  }
-} */
